@@ -1,0 +1,20 @@
+nextcloud:
+  host: 10.100.101.137
+  username: admin
+  password: admin
+
+redis:
+  enabled: true
+  master:
+    persistence:
+      enabled: false
+  replica:
+    persistence:
+      enabled: false
+
+externalDatabase:
+  enabled: false
+
+internalDatabase:
+  enabled: true
+  name: nextcloud
