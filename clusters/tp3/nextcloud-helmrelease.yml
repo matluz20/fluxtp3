@@ -9,7 +9,7 @@ spec:
       chart: nextcloud
       sourceRef:
         kind: HelmRepository
-        name: nextcloud
+        name: nextcloud-repo
         namespace: flux-system
       version: "2.4.1"  # spécifiez la version appropriée
   interval: 5m0s
