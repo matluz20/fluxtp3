@@ -7,11 +7,11 @@ spec:
   chart:
     spec:
       chart: nextcloud
+      version: 4.6.8
       sourceRef:
         kind: HelmRepository
         name: nextcloud-repo
         namespace: flux-system
-      version: 1.0.0  # spécifiez la version appropriée
   interval: 5m0s
   values:
     host: 10.100.101.137
