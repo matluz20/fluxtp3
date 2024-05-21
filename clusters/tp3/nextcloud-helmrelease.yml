@@ -11,7 +11,7 @@ spec:
         kind: HelmRepository
         name: nextcloud-repo
         namespace: flux-system
-      version: "2.4.1"  # spécifiez la version appropriée
+      version: 1.0.0  # spécifiez la version appropriée
   interval: 5m0s
   values:
     host: 10.100.101.137
